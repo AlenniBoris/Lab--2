@@ -11,12 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="">
+    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="test 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.pdb" afterDir="false" />
@@ -32,9 +30,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="3" />
   </component>
+  <component name="ProjectId" id="1yRhUqJUkNpjA3FaGb3mHBgWdxY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,14 +50,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab--1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lab__2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab__2" TARGET_NAME="Lab__2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab__2" RUN_TARGET_NAME="Lab__2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -124,8 +121,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632074364313</updated>
-      <workItem from="1632074368533" duration="8689000" />
+      <workItem from="1632074368533" duration="9307000" />
+      <workItem from="1632220348680" duration="726000" />
+      <workItem from="1632385188780" duration="4865000" />
+      <workItem from="1632677962528" duration="3022000" />
+      <workItem from="1632681379870" duration="1036000" />
     </task>
+    <task id="LOCAL-00001" summary="test 1">
+      <created>1632157655978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632157655978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +150,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
   </component>
 </project>
