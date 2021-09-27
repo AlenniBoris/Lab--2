@@ -2,17 +2,21 @@
 # include <ctime>
 
 using namespace std;
+
+
 int main() {
     int i = 0;
     int max,min;
-    float multiplier = 1;
+    int multiplier = 1;
     float sum = 0;
     int choise;
+
     int arraysize = 0;
+    const int systemsize = 20;
     cout << " Enter array capacity: ";
     cin >> arraysize;
-    while(arraysize <=0 ){
-        cout << "Capacity must be positive \n";
+    while(arraysize <=0 || arraysize > systemsize ){
+        cout << "Capacity must be positive and less than 20 \n";
         cin >> arraysize;
     }
 
@@ -23,20 +27,22 @@ int main() {
         cin >> choise;
     }
 
+    double *arr = new double [arraysize];
+
     if (choise == 1){
-        double *arr = new double [arraysize];
+
         cout << "PLease enter members of array\n";
         for (int i = 0; i < arraysize; i++)
         {
             cin >> arr[i];
         }
+
         for (i = 0; i < arraysize; i++) {
             if (i % 2 == 0) {
                 sum=sum+arr[i];
-                cout <<"\n  Summa" << sum <<endl;
-
             }
         }
+        cout <<"\n  Summa: " << sum <<endl;
 
         for(i=0;i<arraysize;i++)
         {
@@ -55,37 +61,73 @@ int main() {
         {
             multiplier=arr[i]*multiplier;
         }
-        cout<<"Multiplier="<<multiplier;
+        cout<<"Multiplier="<<multiplier<<"\n";
+
+        for (int u = 1; u <= arraysize; u++)
+        {
+            if (abs(arr[u]) < 1)
+            {
+                arr[u] = 0;
+            }
+        }
+        int h = 0;
+        for (int p = 1; p <= arraysize; p++)
+        {
+            if (arr[p] == 0)
+            {
+                for (int t = p; t <= arraysize; t++)
+                {
+                    arr[t] = arr[t + 1];
+                }
+                arr[arraysize] = 0;
+                arraysize--;
+                p--;
+                h++;
+            }
+        }
+        cout << "Transform massive: "
+             << "[";
+        for (int r = 1; r <= arraysize + h; r++)
+        {
+            cout << arr[r] << " ";
+        }
+        cout << "]";
+        delete[] arr;
 
     }
 
     if (choise == 0){
 
         srand(time(NULL));
-        float *arr = new float [arraysize];
-        int maxNumber,minNumber;
+
+        double maxNumber,minNumber;
         //ВВод верхней и нижней границы рандома
         cout << "Enter max number for random : ";
         cin >> maxNumber;
         cout << "Enter min number for random : ";
         cin >> minNumber;
         if (minNumber > maxNumber){
-            cout << "wrong data\n";
-            return 0;
+            swap(maxNumber,minNumber);
         }
 
+        cout << "Your array: ";
+        cout << "[ ";
         for (i;i<arraysize;i++){
-            arr[i]= (rand() % (maxNumber - minNumber + 1) + minNumber)  ;
+            do
+            {
+                double m = (double)rand() / RAND_MAX;
+                arr[i] = 2 * maxNumber * sin(minNumber + 2 * m * (maxNumber - minNumber));
+            } while (arr[i] > maxNumber || arr[i] < minNumber);
             cout << arr[i] <<" ";
         }
+        cout << "]" << endl;
 
         for (i = 0; i < arraysize; i++) {
             if (i % 2 == 0) {
                 sum=sum+arr[i];
-                cout <<"\n  Summa" << sum <<endl;
-
             }
         }
+        cout <<"\n  Summa: " << sum <<endl;
 
         for(i=0;i<arraysize;i++)
         {
@@ -104,9 +146,42 @@ int main() {
         {
             multiplier=arr[i]*multiplier;
         }
-        cout<<"Multiplier="<<multiplier;
+        cout<<"Multiplier="<<multiplier<<"\n";
+
+        for (int u = 1; u <= arraysize; u++)
+        {
+            if (abs(arr[u]) < 1)
+            {
+                arr[u] = 0;
+            }
+        }
+        int h = 0;
+        for (int p = 1; p <= arraysize; p++)
+        {
+            if (arr[p] == 0)
+            {
+                for (int t = p; t <= arraysize; t++)
+                {
+                    arr[t] = arr[t + 1];
+                }
+                arr[arraysize] = 0;
+                arraysize--;
+                p--;
+                h++;
+            }
+        }
+        cout << "Transform massive: "
+             << "[";
+        for (int r = 1; r <= arraysize + h; r++)
+        {
+            cout << arr[r] << " ";
+        }
+        cout << "]";
+        delete[] arr;
+
 
     }
+
 
 
     return 0;
