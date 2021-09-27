@@ -3,11 +3,18 @@
 
 using namespace std;
 int main() {
-
+    int i = 0;
+    int max,min;
+    float multiplier = 1;
+    float sum = 0;
     int choise;
     int arraysize = 0;
-    cout << " Enter array capacity";
+    cout << " Enter array capacity: ";
     cin >> arraysize;
+    while(arraysize <=0 ){
+        cout << "Capacity must be positive \n";
+        cin >> arraysize;
+    }
 
     cout << "You want to fill in array by hands?(Yes(Enter 1) or No(Enter 0)) : ";
     cin >> choise;
@@ -17,20 +24,45 @@ int main() {
     }
 
     if (choise == 1){
-        int size;
         double *arr = new double [arraysize];
         cout << "PLease enter members of array\n";
         for (int i = 0; i < arraysize; i++)
         {
             cin >> arr[i];
         }
+        for (i = 0; i < arraysize; i++) {
+            if (i % 2 == 0) {
+                sum=sum+arr[i];
+                cout <<"\n  Summa" << sum <<endl;
+
+            }
+        }
+
+        for(i=0;i<arraysize;i++)
+        {
+            if(arr[i]<0){
+                min=i;
+                break;
+            }
+        }
+        for(i=0;i<arraysize;i++)
+        {
+            if(arr[i]<0){
+                max=i;
+            }
+        }
+        for(i=min+1;i<max;i++)
+        {
+            multiplier=arr[i]*multiplier;
+        }
+        cout<<"Multiplier="<<multiplier;
 
     }
 
     if (choise == 0){
-        int i = 0;
+
         srand(time(NULL));
-        double *arr = new double [arraysize];
+        float *arr = new float [arraysize];
         int maxNumber,minNumber;
         //ВВод верхней и нижней границы рандома
         cout << "Enter max number for random : ";
@@ -47,22 +79,34 @@ int main() {
             cout << arr[i] <<" ";
         }
 
-     //   while (i < arraysize) {
-       //     double sum = 0;
-         //   if (i % 2 != 0){
-           //     sum = sum + arr[i];
-             //   cout << "Your sum = " << sum;
+        for (i = 0; i < arraysize; i++) {
+            if (i % 2 == 0) {
+                sum=sum+arr[i];
+                cout <<"\n  Summa" << sum <<endl;
 
-          //  }
-      //  }
+            }
+        }
 
-
+        for(i=0;i<arraysize;i++)
+        {
+            if(arr[i]<0){
+                min=i;
+                break;
+            }
+        }
+        for(i=0;i<arraysize;i++)
+        {
+            if(arr[i]<0){
+                max=i;
+            }
+        }
+        for(i=min+1;i<max;i++)
+        {
+            multiplier=arr[i]*multiplier;
+        }
+        cout<<"Multiplier="<<multiplier;
 
     }
-
-
-
-
 
 
     return 0;

@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="test 1">
+    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="test 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" afterDir="false" />
@@ -125,7 +124,7 @@
       <workItem from="1632220348680" duration="726000" />
       <workItem from="1632385188780" duration="4865000" />
       <workItem from="1632677962528" duration="3022000" />
-      <workItem from="1632681379870" duration="1036000" />
+      <workItem from="1632681379870" duration="5644000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <created>1632157655978</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632157655978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test 2">
+      <created>1632682460343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632682460343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
+    <MESSAGE value="test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
   </component>
 </project>
