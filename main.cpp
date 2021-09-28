@@ -2,8 +2,6 @@
 # include <ctime>
 
 using namespace std;
-
-
 int main() {
     int i = 0;
     int max,min;
@@ -92,14 +90,12 @@ int main() {
             cout << arr[r] << " ";
         }
         cout << "]";
-        delete[] arr;
 
     }
 
     if (choise == 0){
 
         srand(time(NULL));
-
         double maxNumber,minNumber;
         //ВВод верхней и нижней границы рандома
         cout << "Enter max number for random : ";
@@ -177,12 +173,6 @@ int main() {
             cout << arr[r] << " ";
         }
         cout << "]";
-        delete[] arr;
-
-
     }
-
-
-
     return 0;
 }
