@@ -174,5 +174,6 @@ int main() {
         }
         cout << "]";
     }
+    delete[]arr;
     return 0;
 }
