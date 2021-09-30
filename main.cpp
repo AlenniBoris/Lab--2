@@ -7,7 +7,6 @@ double* Randomaizer(double *arr,int  arraysize){
     int i = 0;
     srand(time(NULL));
     double maxNumber,minNumber;
-    //ВВод верхней и нижней границы рандома
     cout << "Enter max number for random : ";
     cin >> maxNumber;
     cout << "Enter min number for random : ";
