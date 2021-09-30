@@ -11,8 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="final">
+    <list default="true" id="35d42470-14fb-4221-a47c-be3bba59524e" name="Changes" comment="final 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab__2.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab__2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab__2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -52,6 +57,11 @@
     <configuration name="Lab__2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab__2" TARGET_NAME="Lab__2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab__2" RUN_TARGET_NAME="Lab__2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -121,7 +131,9 @@
       <workItem from="1632812583297" duration="25000" />
       <workItem from="1632812886131" duration="81000" />
       <workItem from="1632816033605" duration="43000" />
-      <workItem from="1632823156451" duration="8000" />
+      <workItem from="1632823156451" duration="85000" />
+      <workItem from="1632825543566" duration="727000" />
+      <workItem from="1632991746190" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <created>1632157655978</created>
@@ -158,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632811866905</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final 1">
+      <created>1632823223484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632823223484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +201,7 @@
     <MESSAGE value="test 3" />
     <MESSAGE value="test 4" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="final 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final 1" />
   </component>
 </project>
