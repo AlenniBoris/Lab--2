@@ -115,29 +115,20 @@ int main() {
         cout << "input 0 or 1 \n";
         cin >> choise;
     }
-
     double *arr = new double [arraysize];
-
     if (choise == 1){
-
         cout << "PLease enter members of array\n";
         for (int i = 0; i < arraysize; i++)
         {
             cin >> arr[i];
         }
-
-        Summa(arr,arraysize);
-        Proizvedenie(arr,arraysize);
-        Transform(arr,arraysize);
-
+        
     }
-
     if (choise == 0){
         Randomaizer(arr,arraysize);
-        Summa(arr,arraysize);
-        Proizvedenie(arr,arraysize);
-        Transform(arr,arraysize);
     }
-
+    Summa(arr,arraysize);
+    Proizvedenie(arr,arraysize);
+    Transform(arr,arraysize);
     return 0;
 }
